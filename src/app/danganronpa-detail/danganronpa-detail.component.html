@@ -1,0 +1,13 @@
+<div *ngIf="Ultimatestud" >
+    <h2>{{Ultimatestud.name | uppercase}} Details</h2>
+    <div>
+        <h3>Ultimate: {{Ultimatestud.Ultimate}}</h3>
+        <p></p>
+        <h3>Further Description to Ultimate: {{Ultimatestud.Furtherdescription}}</h3>
+        <p></p>
+        <h3>Personality: {{Ultimatestud.Personality}}</h3>
+        <p></p>
+        <h3>Backstory: {{Ultimatestud.Backstory}}</h3>
+    </div>
+    <button (click)="goBack()">go back</button>
+</div>

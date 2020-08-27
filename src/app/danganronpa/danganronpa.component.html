@@ -1,0 +1,8 @@
+<h2>Finished Danganronpa Characters</h2>
+<ul class="ultimateStuds">
+    <li *ngFor="let ultimatestud of ultimatestuds">
+        <a routerLink="/Dangandetails/{{ultimatestud.name}}">
+        <span class="badge"> {{ultimatestud.name}}</span>
+        </a>
+    </li>
+</ul>

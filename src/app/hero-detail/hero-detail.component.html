@@ -1,0 +1,23 @@
+<div *ngIf="hero" >
+    <h2>{{hero.name | uppercase}} Details</h2>
+    <div>
+        <h3>Traits: {{hero.traits}}</h3>
+        <p></p>
+        <h3>Abilities: {{hero.Abilities}}</h3>
+        <p></p>
+        <h3>Backstory: {{hero.Backstory}}</h3>
+    </div>
+    <button (click)="goBack()">go back</button>
+</div>
+
+<div *ngIf="heroWIP">
+    <h2>{{heroWIP.name | uppercase}} Details</h2>
+    <div>
+        <h3>Traits: {{heroWIP.traits}}</h3>
+        <p></p>
+        <h3>Abilities: {{heroWIP.Abilities}}</h3>
+        <p></p>
+        <h3>Backstory: {{heroWIP.Backstory}}</h3>
+    </div>
+    <button (click)="goBack()">go back</button>
+</div>

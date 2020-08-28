@@ -14,6 +14,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DanganronpaComponent } from './danganronpa/danganronpa.component';
 import { DanganronpaDetailComponent } from './danganronpa-detail/danganronpa-detail.component';
 import { HomeComponent } from './home/home.component';
+import { MagicTypesComponent } from './magic-types/magic-types.component';
+import { IanverseWorldComponent } from './ianverse-world/ianverse-world.component';
+import { MagicTypesDetailComponent } from './magic-types-detail/magic-types-detail.component';
+import { IanverseWorldDetailComponent } from './ianverse-world-detail/ianverse-world-detail.component';
+import { SubmitnewComponent } from './submitnew/submitnew.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +30,11 @@ import { HomeComponent } from './home/home.component';
     DanganronpaComponent,
     DanganronpaDetailComponent,
     HomeComponent,
+    MagicTypesComponent,
+    IanverseWorldComponent,
+    MagicTypesDetailComponent,
+    IanverseWorldDetailComponent,
+    SubmitnewComponent,
   ],
   imports: [
     BrowserModule,

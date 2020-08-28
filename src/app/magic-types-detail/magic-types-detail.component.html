@@ -1,0 +1,11 @@
+<div *ngIf="magictype" >
+    <h2>{{magictype.name | uppercase}} Details</h2>
+    <div>
+        <h3>General Description: {{magictype.generalDescription}}</h3>
+        <p></p>
+        <h3>Example Spells: {{magictype.exampleSpells}}</h3>
+        <p></p>
+        <h3>Example Users: {{magictype.exampleUsers}}</h3>
+    </div>
+    <button (click)="goBack()">go back</button>
+</div>

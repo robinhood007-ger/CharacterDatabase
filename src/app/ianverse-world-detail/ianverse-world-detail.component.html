@@ -1,0 +1,11 @@
+<div *ngIf="place" >
+    <h2>{{place.name | uppercase}} Details</h2>
+    <div>
+        <h3>General Description: {{place.description}}</h3>
+        <p></p>
+        <h3>Well known inhabitors: {{place.WellKnownInhabitors}}</h3>
+        <p></p>
+        <h3>Believing: {{place.Believing}}</h3>
+    </div>
+    <button (click)="goBack()">go back</button>
+</div>

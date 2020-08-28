@@ -1,17 +1,19 @@
 h2{
-  padding: 1em
+  padding: 1em;
+  margin:0 0 0 0
 }
 
 .heroes {
-  margin: 0 0 2em 0;
+  margin: 0 0 2em 2em;
   list-style-type: none;
+  background-color: darkred;
   padding: 1em;
   width: 15em;
 }
 .heroes li {
   position: relative;
   cursor: pointer;
-  background-color: #EEE;
+  background-color: #8b3029;
   margin: .5em;
   padding: .3em 0;
   height: 1.6em;
@@ -41,7 +43,7 @@ h2{
   font-size: small;
   color: white;
   padding: 0.8em 0.7em 0 0.7em;
-  background-color:#405061;
+  background-color:#905029;
   line-height: 1em;
   position: relative;
   left: -1px;
@@ -62,6 +64,7 @@ h2{
 .heroesWIP{
   margin: 0 0 2em 0;
   list-style-type: none;
+  background-color:darkred;
   padding: 1em;
   width: 15em;
 }
@@ -69,7 +72,7 @@ h2{
 .heroesWIP li {
   position: relative;
   cursor: pointer;
-  background-color: #EEE;
+  background-color: #8b3029;
   margin: .5em;
   padding: .3em 0;
   height: 1.6em;
@@ -99,7 +102,7 @@ h2{
   font-size: small;
   color: white;
   padding: 0.8em 0.7em 0 0.7em;
-  background-color:#405061;
+  background-color:#905029;
   line-height: 1em;
   position: relative;
   left: -1px;

@@ -1,0 +1,8 @@
+<h2>Ianverse World</h2>
+<ul class="ianverseworld">
+    <li *ngFor="let placeintheworld of placesintheworld">
+        <a routerLink="/IanverseWorldDetails/{{placeintheworld.name}}">
+        <span class="badge"> {{placeintheworld.name}}</span>
+        </a>
+    </li>
+</ul>

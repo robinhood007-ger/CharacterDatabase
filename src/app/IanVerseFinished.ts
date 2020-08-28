@@ -3,103 +3,122 @@ import {Hero} from './hero'
 export const HEROES: Hero[] = [
     { name: 'Ian Gallant', 
     traits: 'Test', 
-    Abilities: 'Test', 
-    Backstory:'Test', 
-    magicTypes:'Pyromancy||Body Enhancing Magic' 
+    Abilities: `[ I ]: Able to create around 200 plans at once in his head (with some time), Great Synergy when fighting together with others, A Master at handling all sorts of weapons, Amazing Blacksmith
+               //// [ II ]: Great control over his body, amazing quick thinking in regards of elemental mixing (Helpful with his weapon Chained Demon), Strong willed and positive`, 
+    Backstory:'All started off with him falling in love with a girl in his class. On the day he wanted to confess to her however, she disappeared and with some inner feeling driving him, he had the feeling she was kidnapped for sure. And as he would find out that indeed was right. In the wild chase of getting her out of there, Ian would have accidentally looked into a cursed mirror the gang wanted to sell. After they barely escaped out of there and he finally confessed to her. Something however was off as he felt like his brain was vanishing more and more by the exact moment.', 
+    magicTypes:'Pyromancy||Body Enhancing Magic',
+    SongInspired:'Yes' 
 },
     { name: 'Maoh Gallant|Hellcicer', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test', 
-    magicTypes:'N/A' 
+    magicTypes:'N/A' ,
+    SongInspired:'Skillet - Monster' 
 },
     { name: 'Anii Gallant', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test', 
-    magicTypes:'tba' 
+    magicTypes:'tba' ,
+    SongInspired:'No' 
 },
     { name: 'Isa Gallant', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test' , 
-    magicTypes:'tba'
+    magicTypes:'tba',
+    SongInspired:'Vocaloid - Childish War' 
 },
     { name: 'Ira Gallant', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test', 
-    magicTypes:'tba' 
+    magicTypes:'tba' ,
+    SongInspired:'Vocaloid - Childish War' 
 },
     { name: 'Baccarat', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test' , 
-    magicTypes:'Hydromancy, Aeromancy, Psychic Magic'
+    magicTypes:'Hydromancy, Aeromancy, Psychic Magic',
+    SongInspired:'No' 
 },
     { name: 'Mokuteki Delinq', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test' , 
-    magicTypes:'Body Enhancing Magic'
+    magicTypes:'Body Enhancing Magic',
+    SongInspired:'No' 
 },
     { name: 'Aibo', 
     traits: 'Test', 
     Abilities: 'Test', 
-    Backstory:'Test', 
-    magicTypes:'?' 
+    Backstory:`Created by a wicked god she was sent to HumanRealm for nothing but pure havoc raising. However just as she was 'born' she was found by Mokuteki Delinq who immediately had teached her about the word of 'value' and it's many different meanings. After a lot of escapates with Mokuteki it has become her favorite word and she now calls herself partner of Mokuteki and vice versa. `, 
+    magicTypes:'?' ,
+    SongInspired:'No' 
 },
     { name: 'Helia Regimez', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test', 
-    magicTypes:'Aeromancy, Body Enhancing Magic' 
+    magicTypes:'Aeromancy, Body Enhancing Magic' ,
+    SongInspired:'No' 
 },
     { name: 'Osen', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test', 
-    magicTypes:'tba' 
+    magicTypes:'tba' ,
+    SongInspired:'Vocaloid - Ohedo Julia Night' 
 },
     { name: 'Kasamori', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test' , 
-    magicTypes:'tba'
+    magicTypes:'tba',
+    SongInspired:'Vocaloid - Ohedo Julia Night' 
 },
     { name: 'Dragheart Hellhuntre', 
-    traits: 'Test', 
+    traits: 'Blind', 
     Abilities: 'Test', 
     Backstory:'Test', 
-    magicTypes:'N/A' 
+    magicTypes:'N/A' ,
+    SongInspired:'No' 
 },
     { name: 'Camus Rieux', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test', 
-    magicTypes:'tba' 
+    magicTypes:'tba' ,
+    SongInspired:'Vocaloid/SymaG - Rats Died' 
 },
     { name: 'Liebe Helllife', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test' , 
-    magicTypes:'N/A'
+    magicTypes:'N/A',
+    SongInspired:'No' 
 },
     { name: 'Dragostei Helllife', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test' , 
-    magicTypes:'N/A'},
+    magicTypes:'N/A',
+    SongInspired:'No' 
+},
     { name: 'Calibur Hellcicer', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test', 
-    magicTypes:'N/A' 
+    magicTypes:'N/A' ,
+    SongInspired:'No' ,
 },
     { name: `Aaron D'sa `, 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test', 
-    magicTypes:'tba' 
+    magicTypes:'tba' ,
+    SongInspired:'Vocaloid - Matryoshka' 
 },
 ]

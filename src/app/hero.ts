@@ -4,4 +4,5 @@ export interface Hero{
     Abilities: string;
     Backstory:string;
     magicTypes:string;
+    SongInspired:string;
 }

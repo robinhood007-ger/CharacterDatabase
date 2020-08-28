@@ -22,9 +22,9 @@ export const MAGICTYPES: Magic[]=[
     exampleUsers:'tba'  },
 
     {name:'Body-Enhancing-Magic', 
-    generalDescription:'tba', 
-    exampleSpells:'tba', 
-    exampleUsers:'tba'  },
+    generalDescription:'A popular type of magic all over the great continents. It can be used to enhance anything a body is involved with. This can reach from enhanced eyesight, reaction times to stronger muscles or even lighter bones.', 
+    exampleSpells:'Eyesight Enhancing, Muscle Enhancing, Nerve Enhancing, Neuron Enhancing', 
+    exampleUsers:`Ian [II] Gallant, Aaron [II] D'sa, Helia Regimez, Mokuteki Delinq`  },
 
     {name:'Artmancy', 
     generalDescription:'tba', 

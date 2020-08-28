@@ -8,7 +8,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DanganronpaComponent } from './danganronpa/danganronpa.component';
@@ -19,13 +18,13 @@ import { IanverseWorldComponent } from './ianverse-world/ianverse-world.componen
 import { MagicTypesDetailComponent } from './magic-types-detail/magic-types-detail.component';
 import { IanverseWorldDetailComponent } from './ianverse-world-detail/ianverse-world-detail.component';
 import { SubmitnewComponent } from './submitnew/submitnew.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent,
     DashboardComponent,
     DanganronpaComponent,
     DanganronpaDetailComponent,
@@ -42,7 +41,8 @@ import { SubmitnewComponent } from './submitnew/submitnew.component';
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatSidenavModule
+    MatSidenavModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

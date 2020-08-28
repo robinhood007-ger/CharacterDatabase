@@ -25,5 +25,7 @@ body {
       font-family: Roboto,
        "Helvetica Neue",
         sans-serif;
-    background-color: sandybrown
+    background-color: sandybrown !important
 }
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

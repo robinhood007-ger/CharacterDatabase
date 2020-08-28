@@ -3,7 +3,6 @@ import { MAGICTYPES } from './MagicTypes';
 import { UltimateStuds } from './DanganronpaCharacters';
 import { UltimateStudent } from './Ultimate';
 import { HEROES_WIP } from './IanVerseWIP';
-import { MessageService } from './message.service';
 import { Injectable } from '@angular/core';
 import {Observable, of} from 'rxjs';
 

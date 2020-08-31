@@ -2,10 +2,12 @@ import {Hero} from './hero'
 
 export const HEROES: Hero[] = [
     { name: 'Ian Gallant', 
-    traits: 'Test', 
+    traits: `[ I ]: A really calm and cool attitude, very much a gentleman to his core, a special liking towards crazy people/out of the ordinary people, a connoisseur of weapons and armors ||
+             [ II ]: A very hyperactive person who cna often be compared to a small child, always happy and positive about everything no matter the situation, Needs a lot of sleep most of the time, needy for attention and constant love`, 
     Abilities: `[ I ]: Able to create around 200 plans at once in his head (with some time), Great Synergy when fighting together with others, A Master at handling all sorts of weapons, Amazing Blacksmith
                //// [ II ]: Great control over his body, amazing quick thinking in regards of elemental mixing (Helpful with his weapon Chained Demon), Strong willed and positive`, 
-    Backstory:'All started off with him falling in love with a girl in his class. On the day he wanted to confess to her however, she disappeared and with some inner feeling driving him, he had the feeling she was kidnapped for sure. And as he would find out that indeed was right. In the wild chase of getting her out of there, Ian would have accidentally looked into a cursed mirror the gang wanted to sell. After they barely escaped out of there and he finally confessed to her. Something however was off as he felt like his brain was vanishing more and more by the exact moment.', 
+    Backstory:`All started off with him falling in love with a girl in his class. On the day he wanted to confess to her however, she disappeared and with some inner feeling driving him, he had the feeling she was kidnapped for sure. And as he would find out that indeed was right. In the wild chase of getting her out of there, Ian would have accidentally looked into a cursed mirror the gang wanted to sell. After they barely escaped out of there and he finally confessed to her. Something however was off as he felt like his brain was vanishing more and more by the exact moment. And just like that the girl was shot from across the street, killed almost instantly. And with Ian's memory disappeared almost completely by now, his earliest memory indeed is this sight.
+               And so without any knowledge except for his name and age and some basic other things, he broke of his college studies, teared bonds with what once was his family and ultimately open up his new passion: A Blacksmith Store. `,
     magicTypes:'Pyromancy||Body Enhancing Magic',
     SongInspired:'Yes' 
 },

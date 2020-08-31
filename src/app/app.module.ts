@@ -8,7 +8,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DanganronpaComponent } from './danganronpa/danganronpa.component';
 import { DanganronpaDetailComponent } from './danganronpa-detail/danganronpa-detail.component';
@@ -25,7 +24,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    DashboardComponent,
     DanganronpaComponent,
     DanganronpaDetailComponent,
     HomeComponent,

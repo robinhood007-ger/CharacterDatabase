@@ -5,4 +5,5 @@ export interface Hero{
     Backstory:string;
     magicTypes:string;
     SongInspired:string;
+    Faceclaim:any;
 }

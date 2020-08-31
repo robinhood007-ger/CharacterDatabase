@@ -1,8 +1,9 @@
-<form>
+<form ngForm (ngSubmit)="saveHero()">
     <label>Name</label>
-    <input>
+    <input name="Name" [(ngModel)]='name'>
     <label>Verse</label>
-    <input>
+    <input name="traits" [(ngModel)]='traits'>
     <label>Description</label>
-    <input>
+    <input name="Backstory" [(ngModel)]='Backstory'>
+    <button type="submit">Submit</button>
 </form>

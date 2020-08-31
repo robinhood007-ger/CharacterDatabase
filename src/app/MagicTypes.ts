@@ -71,6 +71,14 @@ export const MAGICTYPES: Magic[]=[
     exampleSpells:'tba' , 
     exampleUsers:'tba' },
 
-    // {name:'Pyromancy', generalDescription:'tba', exampleSpells:'tba' , exampleUsers:'tba' },
-    // {name:'Pyromancy', generalDescription:'tba', exampleSpells:'tba' , exampleUsers:'tba' },
+    {name:'Restoring Magic', 
+    generalDescription:'tba', 
+    exampleSpells:'tba' , 
+    exampleUsers:'tba' },
+
+    {name:'Transforming Magic', 
+    generalDescription:'tba', 
+    exampleSpells:'tba' , 
+    exampleUsers:'tba' },
+
 ]

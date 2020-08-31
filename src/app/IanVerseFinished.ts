@@ -10,13 +10,15 @@ export const HEROES: Hero[] = [
                And so without any knowledge except for his name and age and some basic other things, he broke of his college studies, teared bonds with what once was his family and ultimately open up his new passion: A Blacksmith Store. `,
     magicTypes:'Pyromancy||Body Enhancing Magic',
     SongInspired:'Yes' 
+    ,Faceclaim:'https://www.anime-planet.com/images/characters/koyomi-araragi-289.jpg'
 },
     { name: 'Maoh Gallant|Hellcicer', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test', 
     magicTypes:'N/A' ,
-    SongInspired:'Skillet - Monster' 
+    SongInspired:'Skillet - Monster'
+    ,Faceclaim:'' 
 },
     { name: 'Anii Gallant', 
     traits: 'Test', 
@@ -24,6 +26,7 @@ export const HEROES: Hero[] = [
     Backstory:'Test', 
     magicTypes:'tba' ,
     SongInspired:'No' 
+    ,Faceclaim:''
 },
     { name: 'Isa Gallant', 
     traits: 'Test', 
@@ -31,6 +34,7 @@ export const HEROES: Hero[] = [
     Backstory:'Test' , 
     magicTypes:'tba',
     SongInspired:'Vocaloid - Childish War' 
+    ,Faceclaim:''
 },
     { name: 'Ira Gallant', 
     traits: 'Test', 
@@ -38,6 +42,7 @@ export const HEROES: Hero[] = [
     Backstory:'Test', 
     magicTypes:'tba' ,
     SongInspired:'Vocaloid - Childish War' 
+    ,Faceclaim:''
 },
     { name: 'Baccarat', 
     traits: 'Test', 
@@ -45,13 +50,15 @@ export const HEROES: Hero[] = [
     Backstory:'Test' , 
     magicTypes:'Hydromancy, Aeromancy, Psychic Magic',
     SongInspired:'No' 
+    ,Faceclaim:''
 },
     { name: 'Mokuteki Delinq', 
-    traits: 'Test', 
-    Abilities: 'Test', 
+    traits: 'Rather bold and rough with others, most certainly not worried to give a couple warning shots just to get attention, later loses one eye in a fight and gets it replaced by one of the seven masterpieces ', 
+    Abilities: 'Great skill with rifles especially the one he constantly carries with himself, both a great sharpshooter and equally great in close range with it. Later he also learns to use the time-manipulating magic from the spellbook he found, great at gambling of all sorts ', 
     Backstory:'Test' , 
     magicTypes:'Body Enhancing Magic',
     SongInspired:'No' 
+    ,Faceclaim:''
 },
     { name: 'Aibo', 
     traits: 'Test', 
@@ -59,6 +66,7 @@ export const HEROES: Hero[] = [
     Backstory:`Created by a wicked god she was sent to HumanRealm for nothing but pure havoc raising. However just as she was 'born' she was found by Mokuteki Delinq who immediately had teached her about the word of 'value' and it's many different meanings. After a lot of escapates with Mokuteki it has become her favorite word and she now calls herself partner of Mokuteki and vice versa. `, 
     magicTypes:'?' ,
     SongInspired:'No' 
+    ,Faceclaim:''
 },
     { name: 'Helia Regimez', 
     traits: 'Test', 
@@ -66,6 +74,7 @@ export const HEROES: Hero[] = [
     Backstory:'Test', 
     magicTypes:'Aeromancy, Body Enhancing Magic' ,
     SongInspired:'No' 
+    ,Faceclaim:''
 },
     { name: 'Osen', 
     traits: 'Test', 
@@ -73,6 +82,7 @@ export const HEROES: Hero[] = [
     Backstory:'Test', 
     magicTypes:'tba' ,
     SongInspired:'Vocaloid - Ohedo Julia Night' 
+    ,Faceclaim:''
 },
     { name: 'Kasamori', 
     traits: 'Test', 
@@ -80,13 +90,16 @@ export const HEROES: Hero[] = [
     Backstory:'Test' , 
     magicTypes:'tba',
     SongInspired:'Vocaloid - Ohedo Julia Night' 
+    ,Faceclaim:''
 },
     { name: 'Dragheart Hellhuntre', 
-    traits: 'Blind', 
-    Abilities: 'Test', 
-    Backstory:'Test', 
+    traits: 'Acts overly cool but actually is quite a clumsy person, a playboy with human girls of all sorts, blind, a really reliable and trusting friend', 
+    Abilities: 'Amazing speed and precision in his strikes with both his katana and great-katana, very detailed echolocation through even the smallest sounds made around him, various dragon abilities such as growing big wings/spit elements of all kind of sorts and even hull himself in dragon scales ', 
+    Backstory:`Born as the newest heir of the Hellhuntre family, he was the first to be born with the punishment put onto the family by the Gods and Devils for the deeds of Dragheart's father, who hunted down every golem on HumanRealm. The eternal punishment being the trait of blindness.
+               This exact trait however made him adapt to it after a hard childhood. His target of hunting are dragons, interested in their extinction and to absorb their every ability to use himself.`, 
     magicTypes:'N/A' ,
     SongInspired:'No' 
+    ,Faceclaim:''
 },
     { name: 'Camus Rieux', 
     traits: 'Test', 
@@ -94,6 +107,7 @@ export const HEROES: Hero[] = [
     Backstory:'Test', 
     magicTypes:'tba' ,
     SongInspired:'Vocaloid/SymaG - Rats Died' 
+    ,Faceclaim:''
 },
     { name: 'Liebe Helllife', 
     traits: 'Test', 
@@ -101,6 +115,7 @@ export const HEROES: Hero[] = [
     Backstory:'Test' , 
     magicTypes:'N/A',
     SongInspired:'No' 
+    ,Faceclaim:''
 },
     { name: 'Dragostei Helllife', 
     traits: 'Test', 
@@ -108,13 +123,15 @@ export const HEROES: Hero[] = [
     Backstory:'Test' , 
     magicTypes:'N/A',
     SongInspired:'No' 
+    ,Faceclaim:''
 },
     { name: 'Calibur Hellcicer', 
     traits: 'Test', 
     Abilities: 'Test', 
     Backstory:'Test', 
     magicTypes:'N/A' ,
-    SongInspired:'No' ,
+    SongInspired:'No' 
+    ,Faceclaim:''
 },
     { name: `Aaron D'sa `, 
     traits: 'Test', 
@@ -122,5 +139,6 @@ export const HEROES: Hero[] = [
     Backstory:'Test', 
     magicTypes:'tba' ,
     SongInspired:'Vocaloid - Matryoshka' 
+    ,Faceclaim:''
 },
 ]

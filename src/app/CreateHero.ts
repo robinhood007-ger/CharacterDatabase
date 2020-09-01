@@ -5,4 +5,5 @@ export interface Createhero{
     Backstory?: string;
     magicTypes?: string;
     SongInspired?: string;
+    _id?:string;
 }

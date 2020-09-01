@@ -1,9 +1,27 @@
-<form ngForm (ngSubmit)="saveHero()">
+<form class= NewCharacter autocomplete="off" ngForm>
     <label>Name</label>
     <input name="Name" [(ngModel)]='name'>
-    <label>Verse</label>
-    <input name="traits" [(ngModel)]='traits'>
-    <label>Description</label>
+
+    <label>Traits</label>
+    <input name="traits" [(ngModel)]='traits'>    
+    <label>Magic Types</label>
+    <input name="Magic Types" [(ngModel)]='magicTypes'>
+    <label>Abilities</label>
+    <input name="Abilities" [(ngModel)]='Abilities'>
+    <label>Backstory</label>
     <input name="Backstory" [(ngModel)]='Backstory'>
-    <button type="submit">Submit</button>
+    <label>Inspired by a Song?</label>
+    <input name="InspiredSong?" [(ngModel)]='Songinspired'>
+    <button (click)="saveHero()">Submit</button>
 </form>
+<div class=ToBeVerified>
+    <h2>To be verified!</h2>
+    <ul class="CreatedHeros">
+         <li *ngFor="let CreatedHero of CreatedHeros ">
+            <a routerLink="/VerifiedCharacters/{{CreatedHero._id}}">
+            <span class="badge"> {{CreatedHero.name}}</span>
+            </a>
+            <button (click)="DeleteHero(CreatedHero._id)">Delete Entry</button>
+         </li> 
+    </ul>
+</div>

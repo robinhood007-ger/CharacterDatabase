@@ -18,6 +18,7 @@ import { MagicTypesDetailComponent } from './magic-types-detail/magic-types-deta
 import { IanverseWorldDetailComponent } from './ianverse-world-detail/ianverse-world-detail.component';
 import { SubmitnewComponent } from './submitnew/submitnew.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { VerifiedDetailsComponent } from './verified-details/verified-details.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MagicTypesDetailComponent,
     IanverseWorldDetailComponent,
     SubmitnewComponent,
+    VerifiedDetailsComponent,
   ],
   imports: [
     BrowserModule,

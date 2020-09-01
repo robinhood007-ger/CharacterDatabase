@@ -1,3 +1,4 @@
+import { VerifiedDetailsComponent } from './verified-details/verified-details.component';
 import { SubmitnewComponent } from './submitnew/submitnew.component';
 import { IanverseWorldDetailComponent } from './ianverse-world-detail/ianverse-world-detail.component';
 import { IanverseWorldComponent } from './ianverse-world/ianverse-world.component';
@@ -22,7 +23,8 @@ const routes: Routes = [
   {path: 'Magictypedetails/:name',component:MagicTypesDetailComponent},
   {path: 'IanverseWorld', component:IanverseWorldComponent},
   {path: 'IanverseWorldDetails/:name',component:IanverseWorldDetailComponent},
-  {path: 'SubmitNewCharacter', component:SubmitnewComponent}
+  {path: 'SubmitNewCharacter', component:SubmitnewComponent},
+  {path: 'VerifiedCharacters/:id', component:VerifiedDetailsComponent}
 ];
 
 @NgModule({

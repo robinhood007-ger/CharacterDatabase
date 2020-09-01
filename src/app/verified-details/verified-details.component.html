@@ -1,0 +1,21 @@
+<h1></h1>
+
+ <div *ngIf="CreateHero" >
+    <h2>{{CreateHero.name | uppercase}} Details</h2>
+    <div>
+        <h3>Traits: {{CreateHero.traits}}</h3>
+        <p></p>
+        <h3>Magic Types: {{CreateHero.magicTypes}}</h3>
+        <p></p>
+        <h3>Abilities: {{CreateHero.Abilities}}</h3>
+        <p></p>
+        <h3>Backstory: {{CreateHero.Backstory}}</h3>
+        <p></p>
+        <h3>Inspired by Song: {{CreateHero.SongInspired}}</h3>
+    </div>
+    <!-- <div id="Faceclaim">
+        <img src={{CreateHero.Faceclaim}}> -->
+
+    </div> 
+    <button (click)="goBack()">go back</button>
+

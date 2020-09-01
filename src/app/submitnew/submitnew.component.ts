@@ -12,16 +12,33 @@ export class SubmitnewComponent implements OnInit {
   name:string;
   traits:string;
   Backstory:string;
+  magicTypes:string;
+  Abilities:string;
+  Songinspired:string;
+  CreatedHeros:Createhero[];
 
   constructor(private sns: SubmitNewService) { }
 
-  saveHero(){
-    this.sns.save({name: this.name, traits: this.traits, Backstory: this.Backstory}).subscribe(result => {
-      alert(result);
+  getAll(){
+    this.sns.get().subscribe(result=>{
+      this.CreatedHeros=result
     })
   }
 
+    DeleteHero(id: string){
+      this.sns.delete(id).subscribe(()=> {
+        this.getAll()
+      })
+    }
+
+    saveHero(){
+      this.sns.save({name: this.name, traits: this.traits, Backstory: this.Backstory, magicTypes: this.magicTypes, Abilities: this.Abilities, SongInspired:this.Songinspired}).subscribe(() => {
+        this.getAll()
+      })
+    }
+
   ngOnInit(): void {
+    this.getAll();
   }
 
 }

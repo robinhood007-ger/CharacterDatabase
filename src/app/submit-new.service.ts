@@ -52,7 +52,6 @@ export class SubmitNewService {
   }
 
   delete(id:string): Observable<Createhero>{
-    console.log(id)
     return this.httpClient.delete<Createhero>('http://localhost:3000/hero/' + id)
     .pipe(
       map(result =>{
@@ -63,4 +62,20 @@ export class SubmitNewService {
       })
     )
   }
-}
+
+  deleteAll(name:string):Observable<Createhero>{
+    return this.httpClient.delete<Createhero>('http://localhost:3000/hero/name/' +  name)
+    .pipe(
+      map(result=>{
+        return result
+      }),
+      catchError(err=>{
+        return throwError(err)
+      })
+    )
+  }
+
+//   deleteMultipleNames(deletedHero: Createhero ): Observable<Createhero>{
+//     return this.httpClient.delete(deletedHero.name)
+//   }
+ }

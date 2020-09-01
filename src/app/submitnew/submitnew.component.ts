@@ -41,4 +41,10 @@ export class SubmitnewComponent implements OnInit {
     this.getAll();
   }
 
+  deleteAll(name:string){
+    this.sns.deleteAll(name).subscribe(()=>{
+      this.getAll()
+    })
+  }
+
 }

@@ -1,92 +1,92 @@
-input{
-    display:block;
-    margin: 0 0 0 0  ;
-    padding: 0.5em;
-    width: 18em;
+input {
+  display: block;
+  margin: 0 0 0 0;
+  padding: 0.5em;
+  width: 18em;
 }
 
-label{
-    display:block;
+label {
+  display: block;
 }
 
-.ToBeVerified{
-    float:right;
-    margin-right:70em;
-    margin-top: -30.5em;
+.ToBeVerified {
+  float: right;
+  margin-right: 70em;
+  margin-top: -30.5em;
 }
 
-.NewCharacter{
-    margin:1em 0 0 5em
+.NewCharacter {
+  margin: 1em 0 0 5em;
 }
 
-.CreatedHeros{
-    margin: 0 0 2em 2em;
-    list-style-type: none;
-    background-color: darkred;
-    padding: 1em;
-    width: 15em;
+.CreatedHeros {
+  margin: 0 0 2em 2em;
+  list-style-type: none;
+  background-color: darkred;
+  padding: 1em;
+  width: 15em;
 }
 
-.CreatedHeros li{
-    position: relative;
-    cursor: pointer;
-    background-color: #8b3029;
-    margin: 1em;
-    padding: .3em 0;
-    height: 1.6em;
-    border-radius: 4px
+.CreatedHeros li {
+  position: relative;
+  cursor: pointer;
+  background-color: #8b3029;
+  margin: 1em;
+  padding: 0.3em 0;
+  height: 1.6em;
+  border-radius: 4px;
 }
 
-.CreatedHeros li:hover{
-    color: #607D8B;
-    background-color: #DDD;
-    left: .1em;
+.CreatedHeros li:hover {
+  color: #607d8b;
+  background-color: #ddd;
+  left: 0.1em;
 }
 
-.CreatedHeros a{
-    color: #333;
-    text-decoration: none;
-    position: relative;
-    display: block;
-    
+.CreatedHeros a {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  height: 1.4em;
 }
 
-.CreatedHeros a:hover{
-    color:#607D8B;
+.CreatedHeros a:hover {
+  color: #607d8b;
 }
 
-.CreatedHeros .badge{
-display: inline-block;
-font-size: small;
-color: white;
-padding: 0.8em 0.7em 0 0.7em;
-background-color:#905029;
-line-height: 1em;
-position: relative;
-left: -1px;
-top: -4px;
-height: 1.8em;
-min-width: 16px;
-text-align: right;
-margin-right: .8em;
-border-radius: 4px 0 0 4px;
+.CreatedHeros .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #905029;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: 0.8em;
+  border-radius: 4px 0 0 4px;
 }
 
-.CreatedHeros button{
-    position: absolute;
-    margin-left:12.8em;
-    bottom:0em;
-    background-color: #8b3029;
-    border-color: #8b3029;
-    color:whitesmoke;
+.CreatedHeros button {
+  position: absolute;
+  margin-left: 12.8em;
+  bottom: 0em;
+  background-color: #8b3029;
+  border-color: #8b3029;
+  color: whitesmoke;
 }
 
-.CreatedHeros :hover{
-   background-color:#DDD;
-   color:#607D8B;
+.CreatedHeros :hover {
+  background-color: #ddd;
+  color: #607d8b;
 }
 
-.CreatedHeros .DeleteMany{
-    margin:auto 19.4em;
-    width: 20em;
+.CreatedHeros .DeleteMany {
+  margin: auto 19.4em;
+  width: 20em;
 }

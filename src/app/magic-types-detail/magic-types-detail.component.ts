@@ -7,29 +7,29 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-magic-types-detail',
   templateUrl: './magic-types-detail.component.html',
-  styleUrls: ['./magic-types-detail.component.scss']
+  styleUrls: ['./magic-types-detail.component.scss'],
 })
 export class MagicTypesDetailComponent implements OnInit {
-  magictype:Magic
+  magictype: Magic;
 
   constructor(
-    private HeroService:HeroService,
-    private route:ActivatedRoute,
-    private location: Location,
-  ) { }
+    private HeroService: HeroService,
+    private route: ActivatedRoute,
+    private location: Location
+  ) {}
 
   ngOnInit(): void {
     this.getMagicType();
   }
 
-  getMagicType():void{
-    const name = this.route.snapshot.paramMap.get('name')
-    this.HeroService.getMagicType(name)
-    .subscribe(magictype=>this.magictype=magictype)
+  getMagicType(): void {
+    const name = this.route.snapshot.paramMap.get('name');
+    this.HeroService.getMagicType(name).subscribe(
+      (magictype) => (this.magictype = magictype)
+    );
   }
 
-  goBack(): void{
+  goBack(): void {
     this.location.back();
   }
-
 }

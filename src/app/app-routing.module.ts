@@ -13,22 +13,25 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  {path: 'Ianverse', component: HeroesComponent},
-  {path: '', redirectTo:'/Home', pathMatch:'full'},
-  {path: 'details/:name', component: HeroDetailComponent},
-  {path: 'Home', component:HomeComponent},
-  {path: 'Danganronpa', component:DanganronpaComponent},
-  {path: 'Dangandetails/:name', component:DanganronpaDetailComponent},
-  {path: 'MagicTypes', component:MagicTypesComponent},
-  {path: 'Magictypedetails/:name',component:MagicTypesDetailComponent},
-  {path: 'IanverseWorld', component:IanverseWorldComponent},
-  {path: 'IanverseWorldDetails/:name',component:IanverseWorldDetailComponent},
-  {path: 'SubmitNewCharacter', component:SubmitnewComponent},
-  {path: 'VerifiedCharacters/:id', component:VerifiedDetailsComponent}
+  { path: 'Ianverse', component: HeroesComponent },
+  { path: '', redirectTo: '/Home', pathMatch: 'full' },
+  { path: 'details/:name', component: HeroDetailComponent },
+  { path: 'Home', component: HomeComponent },
+  { path: 'Danganronpa', component: DanganronpaComponent },
+  { path: 'Dangandetails/:name', component: DanganronpaDetailComponent },
+  { path: 'MagicTypes', component: MagicTypesComponent },
+  { path: 'Magictypedetails/:name', component: MagicTypesDetailComponent },
+  { path: 'IanverseWorld', component: IanverseWorldComponent },
+  {
+    path: 'IanverseWorldDetails/:name',
+    component: IanverseWorldDetailComponent,
+  },
+  { path: 'SubmitNewCharacter', component: SubmitnewComponent },
+  { path: 'VerifiedCharacters/:id', component: VerifiedDetailsComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

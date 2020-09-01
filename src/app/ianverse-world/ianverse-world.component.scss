@@ -1,57 +1,57 @@
-h2{
-    padding: 1em;
-    margin: 0 0 0 2em
-  }
-  
- .ianverseworld{
-    margin: 0 0 2em 2em;
-    list-style-type: none;
-    padding: 1em;
-    width: 15em;
-    background-color: darkred;
-  }
-  
-  .ianverseworld li {
-    position: relative;
-    cursor: pointer;
-    background-color: #8b3029;
-    margin: 1em;
-    padding: .3em 0;
-    height: 1.6em;
-    border-radius: 4px;
-  }
-  
-  .ianverseworld li:hover {
-    color: #607D8B;
-    background-color: #DDD;
-    left: .1em;
-  }
-  
-  .ianverseworld a {
-    color: #333;
-    text-decoration: none;
-    position: relative;
-    display: block;
-    width: 250px;
-  }
-  
-  .ianverseworld a:hover {
-    color:#607D8B;
-  }
-  
-  .ianverseworld .badge {
-    display: inline-block;
-    font-size: small;
-    color: white;
-    padding: 0.8em 0.7em 0 0.7em;
-    background-color:#905029;
-    line-height: 1em;
-    position: relative;
-    left: -1px;
-    top: -4px;
-    height: 1.8em;
-    min-width: 16px;
-    text-align: right;
-    margin-right: .8em;
-    border-radius: 4px 0 0 4px;
-  }
+h2 {
+  padding: 1em;
+  margin: 0 0 0 2em;
+}
+
+.ianverseworld {
+  margin: 0 0 2em 2em;
+  list-style-type: none;
+  padding: 1em;
+  width: 15em;
+  background-color: darkred;
+}
+
+.ianverseworld li {
+  position: relative;
+  cursor: pointer;
+  background-color: #8b3029;
+  margin: 1em;
+  padding: 0.3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+
+.ianverseworld li:hover {
+  color: #607d8b;
+  background-color: #ddd;
+  left: 0.1em;
+}
+
+.ianverseworld a {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  width: 250px;
+}
+
+.ianverseworld a:hover {
+  color: #607d8b;
+}
+
+.ianverseworld .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #905029;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: 0.8em;
+  border-radius: 4px 0 0 4px;
+}

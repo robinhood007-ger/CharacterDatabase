@@ -8,9 +8,8 @@ describe('IanverseWorldDetailComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ IanverseWorldDetailComponent ]
-    })
-    .compileComponents();
+      declarations: [IanverseWorldDetailComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

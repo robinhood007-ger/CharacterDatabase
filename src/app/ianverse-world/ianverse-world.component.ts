@@ -5,22 +5,22 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-ianverse-world',
   templateUrl: './ianverse-world.component.html',
-  styleUrls: ['./ianverse-world.component.scss']
+  styleUrls: ['./ianverse-world.component.scss'],
 })
 export class IanverseWorldComponent implements OnInit {
-  placesintheworld:place[]
+  placesintheworld: place[];
 
-  constructor(
-    private heroservice:HeroService
-  ) { }
+  constructor(private heroservice: HeroService) {}
 
   ngOnInit(): void {
-    this.getplaces()
+    this.getplaces();
   }
 
-  getplaces():void{
-    this.heroservice.getPlaces()
-    .subscribe(placesintheworld=>this.placesintheworld=placesintheworld)
+  getplaces(): void {
+    this.heroservice
+      .getPlaces()
+      .subscribe(
+        (placesintheworld) => (this.placesintheworld = placesintheworld)
+      );
   }
-
 }

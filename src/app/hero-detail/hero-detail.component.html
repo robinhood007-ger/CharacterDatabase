@@ -1,39 +1,37 @@
-<div *ngIf="hero" >
-    <h2>{{hero.name | uppercase}} Details</h2>
-    <div>
-        <h3>Traits: {{hero.traits}}</h3>
-        <p></p>
-        <h3>Magic Types: {{hero.magicTypes}}</h3>
-        <p></p>
-        <h3>Abilities: {{hero.Abilities}}</h3>
-        <p></p>
-        <h3>Backstory: {{hero.Backstory}}</h3>
-        <p></p>
-        <h3>Inspired by Song: {{hero.SongInspired}}</h3>
-    </div>
-    <div id="Faceclaim">
-        <img src={{hero.Faceclaim}}>
-
-    </div>
-    <button (click)="goBack()">go back</button>
+<div *ngIf="hero">
+  <h2>{{ hero.name | uppercase }} Details</h2>
+  <div>
+    <h3>Traits: {{ hero.traits }}</h3>
+    <p></p>
+    <h3>Magic Types: {{ hero.magicTypes }}</h3>
+    <p></p>
+    <h3>Abilities: {{ hero.Abilities }}</h3>
+    <p></p>
+    <h3>Backstory: {{ hero.Backstory }}</h3>
+    <p></p>
+    <h3>Inspired by Song: {{ hero.SongInspired }}</h3>
+  </div>
+  <div id="Faceclaim">
+    <img src="{{ hero.Faceclaim }}" />
+  </div>
+  <button (click)="goBack()">go back</button>
 </div>
 
 <div *ngIf="heroWIP">
-    <h2>{{heroWIP.name | uppercase}} Details</h2>
-    <div>
-        <h3>Traits: {{heroWIP.traits}}</h3>
-        <p></p>
-        <h3>Magic Types: {{heroWIP.magicTypes}}</h3>
-        <p></p>
-        <h3>Abilities: {{heroWIP.Abilities}}</h3>
-        <p></p>
-        <h3>Backstory: {{heroWIP.Backstory}}</h3>
-        <p></p>
-        <h3>Inspired by Song: {{heroWIP.SongInspired}}</h3>
-    </div>
-    <div id="Faceclaim">
-        <img src="heroWIP.FaceClaim">
-
-    </div>
-    <button (click)="goBack()">go back</button>
+  <h2>{{ heroWIP.name | uppercase }} Details</h2>
+  <div>
+    <h3>Traits: {{ heroWIP.traits }}</h3>
+    <p></p>
+    <h3>Magic Types: {{ heroWIP.magicTypes }}</h3>
+    <p></p>
+    <h3>Abilities: {{ heroWIP.Abilities }}</h3>
+    <p></p>
+    <h3>Backstory: {{ heroWIP.Backstory }}</h3>
+    <p></p>
+    <h3>Inspired by Song: {{ heroWIP.SongInspired }}</h3>
+  </div>
+  <div id="Faceclaim">
+    <img src="heroWIP.FaceClaim" />
+  </div>
+  <button (click)="goBack()">go back</button>
 </div>

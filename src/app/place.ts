@@ -1,6 +1,6 @@
-export interface place{
-    name:string,
-    description:string,
-    WellKnownInhabitors:string,
-    Believing:string,
+export interface place {
+  name: string;
+  description: string;
+  WellKnownInhabitors: string;
+  Believing: string;
 }

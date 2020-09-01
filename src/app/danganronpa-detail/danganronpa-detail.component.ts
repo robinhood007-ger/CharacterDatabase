@@ -8,29 +8,29 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-danganronpa-detail',
   templateUrl: './danganronpa-detail.component.html',
-  styleUrls: ['./danganronpa-detail.component.scss']
+  styleUrls: ['./danganronpa-detail.component.scss'],
 })
 export class DanganronpaDetailComponent implements OnInit {
-  Ultimatestud:UltimateStudent
+  Ultimatestud: UltimateStudent;
 
   constructor(
     private route: ActivatedRoute,
     private HeroService: HeroService,
-    private location: Location,
-  ) { }
+    private location: Location
+  ) {}
 
   ngOnInit(): void {
-    this.getStud()
+    this.getStud();
   }
 
-  getStud():void{
-    const name = this.route.snapshot.paramMap.get('name')
-    this.HeroService.getUltimateStud(name)
-    .subscribe(Ultimatestud=>this.Ultimatestud=Ultimatestud)
+  getStud(): void {
+    const name = this.route.snapshot.paramMap.get('name');
+    this.HeroService.getUltimateStud(name).subscribe(
+      (Ultimatestud) => (this.Ultimatestud = Ultimatestud)
+    );
   }
 
-  goBack():void{
+  goBack(): void {
     this.location.back();
   }
-
 }

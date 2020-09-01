@@ -8,9 +8,8 @@ describe('DanganronpaComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DanganronpaComponent ]
-    })
-    .compileComponents();
+      declarations: [DanganronpaComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

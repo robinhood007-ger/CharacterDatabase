@@ -1,28 +1,28 @@
-<form class= NewCharacter autocomplete="off" ngForm>
-    <label>Name</label>
-    <input name="Name" [(ngModel)]='name'>
+<form class="NewCharacter" autocomplete="off" ngForm>
+  <label>Name</label>
+  <input name="Name" [(ngModel)]="name" />
 
-    <label>Traits</label>
-    <input name="traits" [(ngModel)]='traits'>    
-    <label>Magic Types</label>
-    <input name="Magic Types" [(ngModel)]='magicTypes'>
-    <label>Abilities</label>
-    <input name="Abilities" [(ngModel)]='Abilities'>
-    <label>Backstory</label>
-    <input name="Backstory" [(ngModel)]='Backstory'>
-    <label>Inspired by a Song?</label>
-    <input name="InspiredSong?" [(ngModel)]='Songinspired'>
-    <button (click)="saveHero()">Submit</button>
+  <label>Traits</label>
+  <input name="traits" [(ngModel)]="traits" />
+  <label>Magic Types</label>
+  <input name="Magic Types" [(ngModel)]="magicTypes" />
+  <label>Abilities</label>
+  <input name="Abilities" [(ngModel)]="Abilities" />
+  <label>Backstory</label>
+  <input name="Backstory" [(ngModel)]="Backstory" />
+  <label>Inspired by a Song?</label>
+  <input name="InspiredSong?" [(ngModel)]="Songinspired" />
+  <button (click)="saveHero()">Submit</button>
 </form>
-<div class=ToBeVerified>
-    <h2>To be verified!</h2>
-    <ul class="CreatedHeros">
-         <li *ngFor="let CreatedHero of CreatedHeros ">
-            <a routerLink="/VerifiedCharacters/{{CreatedHero._id}}">
-            <span class="badge"> {{CreatedHero.name}}</span>
-            </a>
-            <button (click)="DeleteHero(CreatedHero._id)">Delete Entry</button>
-            <!-- <button class=DeleteMany (click)="deleteAll(CreatedHero.name)">Delete Every Entry with the same Name</button> -->
-         </li> 
-    </ul>
+<div class="ToBeVerified">
+  <h2>To be verified!</h2>
+  <ul class="CreatedHeros">
+    <li *ngFor="let CreatedHero of CreatedHeros">
+      <a routerLink="/VerifiedCharacters/{{ CreatedHero._id }}">
+        <span class="badge"> {{ CreatedHero.name }}</span>
+      </a>
+      <button (click)="DeleteHero(CreatedHero._id)">Delete Entry</button>
+      <!-- <button class=DeleteMany (click)="deleteAll(CreatedHero.name)">Delete Every Entry with the same Name</button> -->
+    </li>
+  </ul>
 </div>

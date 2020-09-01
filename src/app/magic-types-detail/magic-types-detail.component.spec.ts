@@ -8,9 +8,8 @@ describe('MagicTypesDetailComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MagicTypesDetailComponent ]
-    })
-    .compileComponents();
+      declarations: [MagicTypesDetailComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

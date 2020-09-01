@@ -1,39 +1,40 @@
 h1 {
-    font-size: 1.2em;
-    margin-bottom: 0;
-    padding:1em
-  }
-  h2 {
-    font-size: 2em;
-    margin-top: 0;
-    padding-top: 0;
-  }
-  nav{
-    padding:1em;
-    background-color: lightcyan;
-  }
-  nav a {
-    padding: 5px 2em;
-    text-decoration: none;
-    margin-top: 10px;
-    display: inline-block;
-    background-color: lightblue;
-    color:white;
-    border-radius: 50px;
-    font-size: 1.7em;
-    width: 10.8em;
-  }
-  nav a:visited, a:link {
-    color: #334953;
-  }
-  nav a:hover {
-    color: #039be5;
-    background-color: #cfd8dc;
-  }
-  nav a.active {
-    color: #039be5;
-  }
+  font-size: 1.2em;
+  margin-bottom: 0;
+  padding: 1em;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+nav {
+  padding: 1em;
+  background-color: lightcyan;
+}
+nav a {
+  padding: 5px 2em;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: lightblue;
+  color: white;
+  border-radius: 50px;
+  font-size: 1.7em;
+  width: 10.8em;
+}
+nav a:visited,
+a:link {
+  color: #334953;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #cfd8dc;
+}
+nav a.active {
+  color: #039be5;
+}
 
-  #newCharacter{
-    width: 16.781em;
-  }
+#newCharacter {
+  width: 16.781em;
+}

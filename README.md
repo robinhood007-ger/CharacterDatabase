@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 To try it out and add your own Characters just visit https://stackblitz.com/github/robinhood007-ger/CharacterDatabase and wait for the dev server to start up.
-Click on Open in New Window on the top right afterwards.
+Click on Open in New Window on the top right afterwards. IMPORTANT: Keep Stackblitz open at all times!

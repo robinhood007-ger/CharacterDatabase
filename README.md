@@ -27,4 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-To try it out and add your own Characters just visit https://stackblitz.com/github/robinhood007-ger/CharacterDatabase
+To try it out and add your own Characters just visit https://stackblitz.com/github/robinhood007-ger/CharacterDatabase and wait for the dev server to start up.
+Click on Open in New Window on the top right afterwards. IMPORTANT: Keep Stackblitz open at all times!
+
+If you want to submit new characters, please contact me.

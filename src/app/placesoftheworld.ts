@@ -4,7 +4,7 @@ export const PLACESINTHEWORLD: place[] = [
   {
     name: 'TSN',
     description:
-      'A very urban continent. Similiar to our Industrial World today. A lot of different climate zones. Melting pot of people from all over the world. ',
+      'A very urban continent. Similiar to our Industrial World today. A lot of different climate zones. Melting pot of people from all over the world. TSN stands for The Sacred Nations. ',
     WellKnownInhabitors: `The Gallant Family, Aaron D'sa `,
     Believing: 'HeavenRealm',
   },
@@ -78,7 +78,7 @@ export const PLACESINTHEWORLD: place[] = [
   {
     name: 'ForbiddenRealm',
     description: 'tba',
-    WellKnownInhabitors: 'tba',
+    WellKnownInhabitors: 'The Four Bringers of the Apocalypse',
     Believing: 'N/A',
   },
 ];

@@ -95,4 +95,13 @@ export const HEROES_WIP: Hero[] = [
     SongInspired: 'No',
     Faceclaim: '',
   },
+  {
+    name: 'Unappreciated Performer and his popular demon idol',
+    traits: 'tba',
+    Abilities: 'tba',
+    Backstory: 'tba',
+    magicTypes: 'tba',
+    SongInspired: 'TopHamHatKyo - Princess / Mister Jewel Box',
+    Faceclaim: '',
+  },
 ];

@@ -117,7 +117,7 @@ export const HEROES_WIP: Hero[] = [
     name: 'MonogatariVerseMC',
     traits: 'tba',
     Abilities: 'tba',
-    Backstory: 'Guy with the aberration of a ? which has him see all the many people affected by an aberration. This comes from his high will to help, helping people so much that his own life is putting on risk at any time. Deep inside believes nobody loves him --> got rejected multiple times. Later on learns from ? or how to take care of aberrations with the constant risk of dying however due to dangerous aberrations. ',
+    Backstory: 'Guy with the aberration of a dolphin which has him see all the many people affected by an aberration. This comes from his high will to help, helping people so much that his own life is putting on risk at any time. Deep inside believes nobody loves him --> got rejected multiple times. Later on learns from ? or how to take care of aberrations with the constant risk of dying however due to dangerous aberrations. ',
     magicTypes: 'N/A',
     SongInspired: 'No',
     Faceclaim: '',

@@ -1,4 +1,4 @@
-import { place } from './place';
+import { place } from '../models/place';
 
 export const PLACESINTHEWORLD: place[] = [
   {

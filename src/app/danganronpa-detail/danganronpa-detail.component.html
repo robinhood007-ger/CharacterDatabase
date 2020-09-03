@@ -11,5 +11,27 @@
     <p></p>
     <h3>Backstory: {{ Ultimatestud.Backstory }}</h3>
   </div>
+  <div id=Faceclaim>
+    <a href={{Ultimatestud.Faceclaim}}><img src={{Ultimatestud.Faceclaim}}></a>
+  </div>
+  <button (click)="goBack()">go back</button>
+</div>
+
+<div *ngIf="UltimatestudWIP">
+  <h2>{{UltimatestudWIP.name | uppercase}} Details</h2>
+  <div>
+    <h3>Ultimate: {{UltimatestudWIP.Ultimate}}</h3>
+    <p></p>
+    <h3>Further Description to Ultimate: {{UltimatestudWIP.Furtherdescription}}</h3>
+      <p></p>
+      <h3>Personality: {{UltimatestudWIP.Personality}}</h3>
+      <p></p>
+      <h3>Backstory: {{UltimatestudWIP.Backstory}}</h3>
+      <p></p>
+      <div id=Faceclaim>
+        <a href={{UltimatestudWIP.Faceclaim}}><img src={{UltimatestudWIP.Faceclaim}}></a>
+      </div>
+      
+  </div>
   <button (click)="goBack()">go back</button>
 </div>

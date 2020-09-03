@@ -4,4 +4,5 @@ export interface UltimateStudent {
   Furtherdescription: string;
   Personality: string;
   Backstory: string;
+  Faceclaim:string;
 }

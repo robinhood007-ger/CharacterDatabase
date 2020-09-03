@@ -1,4 +1,4 @@
-import { Hero } from './hero';
+import { Hero } from '../models/hero';
 
 export const HEROES: Hero[] = [
   {
@@ -22,7 +22,7 @@ export const HEROES: Hero[] = [
     Backstory: `As the youngest heir of the Hellcicer family he had lived out both his childhood and teenage times just as any other, being known as a little troublemaker. Things however changed to the worse not too long after. Fooled and threatened by a god he found himself killing thousands of innocent humans...tbc`,
     magicTypes: 'N/A',
     SongInspired: 'Skillet - Monster',
-    Faceclaim: '',
+    Faceclaim: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6bf73691-cf37-41d5-a363-d3c7df059898/d5syhys-d5b4281e-db12-4b29-8c34-64325f0fa63b.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmJmNzM2OTEtY2YzNy00MWQ1LWEzNjMtZDNjN2RmMDU5ODk4XC9kNXN5aHlzLWQ1YjQyODFlLWRiMTItNGIyOS04YzM0LTY0MzI1ZjBmYTYzYi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.N4NpuxLoMpjE201SJg-NH0sxJBTa78JfPcg2TNVXRS4',
   },
   {
     name: 'Anii Gallant',
@@ -33,7 +33,7 @@ export const HEROES: Hero[] = [
     magicTypes:
       '[Youngest Form]: Restoration Magic, [Second Youngest Form]: Restoration Magic, ',
     SongInspired: 'No',
-    Faceclaim: '',
+    Faceclaim: 'https://i.redd.it/phf944w3sg141.jpg',
   },
   {
     name: 'Isa Gallant',
@@ -42,7 +42,7 @@ export const HEROES: Hero[] = [
     Backstory: 'tba',
     magicTypes: 'tba',
     SongInspired: 'Vocaloid - Childish War',
-    Faceclaim: '',
+    Faceclaim: 'https://i.pinimg.com/originals/a9/56/50/a956506def7c8c994291290d7fb446f6.png',
   },
   {
     name: 'Ira Gallant',
@@ -51,7 +51,7 @@ export const HEROES: Hero[] = [
     Backstory: 'tba',
     magicTypes: 'tba',
     SongInspired: 'Vocaloid - Childish War',
-    Faceclaim: '',
+    Faceclaim: 'https://i.pinimg.com/originals/1a/72/c2/1a72c2ce479ca5cfe976896184c9f6d4.jpg',
   },
   {
     name: 'Baccarat',
@@ -60,7 +60,7 @@ export const HEROES: Hero[] = [
     Backstory: 'tba',
     magicTypes: 'Hydromancy, Aeromancy, Psychic Magic',
     SongInspired: 'No',
-    Faceclaim: '',
+    Faceclaim: 'https://i.redd.it/pgk2vqtkja851.jpg',
   },
   {
     name: 'Mokuteki Delinq',
@@ -72,7 +72,7 @@ export const HEROES: Hero[] = [
       'Ever since he knew he was alone in the world. He has no knowledge of real friends nor of any parents at any time of his life. All he knows is that he is living the live as a rough bandit, gaining his life income from headhunting and gambling equally. The only person that would pick up on his great potential when he was still young was the one who would develop that potential a lot further, making him as dangerous as he is right now. The only two things that changed his life to a more relaxed and fortunate thing to him were the meeting and talking with Ian and more importantly the finding of his partner: Aibo.',
     magicTypes: 'Body Enhancing Magic',
     SongInspired: 'No',
-    Faceclaim: '',
+    Faceclaim: 'https://pbs.twimg.com/media/EfUC8JJWsAAcuEM?format=jpg&name=small',
   },
   {
     name: 'Aibo',
@@ -83,7 +83,7 @@ export const HEROES: Hero[] = [
     Backstory: `Created by a wicked god she was sent to HumanRealm for nothing but pure havoc raising. However just as she was 'born' she was found by Mokuteki Delinq who immediately had teached her about the word of 'value' and it's many different meanings. After a lot of escapates with Mokuteki it has become her favorite word and she now calls herself partner of Mokuteki and vice versa. `,
     magicTypes: '?',
     SongInspired: 'No',
-    Faceclaim: '',
+    Faceclaim: 'https://pbs.twimg.com/media/EfO9DL-XkAIDpo-?format=jpg&name=900x900',
   },
   {
     name: 'Helia Regimez',
@@ -92,7 +92,7 @@ export const HEROES: Hero[] = [
     Backstory: 'tba',
     magicTypes: 'Aeromancy, Body Enhancing Magic',
     SongInspired: 'No',
-    Faceclaim: '',
+    Faceclaim: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7cede473-af0f-4f84-ae35-1e1acce50ce9/dcwsjf5-88491066-17b7-4e7f-9e2c-3f94e7bde76f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvN2NlZGU0NzMtYWYwZi00Zjg0LWFlMzUtMWUxYWNjZTUwY2U5XC9kY3dzamY1LTg4NDkxMDY2LTE3YjctNGU3Zi05ZTJjLTNmOTRlN2JkZTc2Zi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.PCgZzSA8kDIhh6kCxVrHytTs6M5qgBOk-Fm4BYLFB1c',
   },
   {
     name: 'Osen',
@@ -101,7 +101,7 @@ export const HEROES: Hero[] = [
     Backstory: 'tba',
     magicTypes: 'tba',
     SongInspired: 'Vocaloid - Ohedo Julia Night',
-    Faceclaim: '',
+    Faceclaim: 'https://i.pinimg.com/originals/b1/6b/f7/b16bf7d30901491e20dd4a8f1f2206dd.png',
   },
   {
     name: 'Kasamori',
@@ -110,7 +110,7 @@ export const HEROES: Hero[] = [
     Backstory: 'tba',
     magicTypes: 'tba',
     SongInspired: 'Vocaloid - Ohedo Julia Night',
-    Faceclaim: '',
+    Faceclaim: 'https://64.media.tumblr.com/1f9a93371e329acbf2973c6c5711a52b/tumblr_p2bkhmOrjC1w2i8i4o1_400.png',
   },
   {
     name: 'Dragheart Hellhuntre',
@@ -131,7 +131,7 @@ export const HEROES: Hero[] = [
     Backstory: 'tba',
     magicTypes: 'tba',
     SongInspired: 'Vocaloid/SymaG - Rats Died',
-    Faceclaim: '',
+    Faceclaim: 'https://pbs.twimg.com/media/EXcF_0YWkAI2CcA?format=jpg&name=medium',
   },
   {
     name: 'Liebe Helllife',
@@ -140,7 +140,7 @@ export const HEROES: Hero[] = [
     Backstory: 'tba',
     magicTypes: 'N/A',
     SongInspired: 'No',
-    Faceclaim: '',
+    Faceclaim: 'https://animeanime.global/wp-content/uploads/2020/02/307319.jpg',
   },
   {
     name: 'Dragostei Helllife',
@@ -149,7 +149,7 @@ export const HEROES: Hero[] = [
     Backstory: 'tba',
     magicTypes: 'N/A',
     SongInspired: 'No',
-    Faceclaim: '',
+    Faceclaim: 'https://animeanime.global/wp-content/uploads/2020/02/307320.jpg',
   },
   {
     name: 'Calibur Hellcicer',

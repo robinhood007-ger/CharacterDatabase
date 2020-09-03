@@ -1,8 +1,8 @@
+import { UltimateStudent } from './../models/Ultimate';
 import { Location } from '@angular/common';
-import { HeroService } from './../hero.service';
+import { HeroService } from '../hero.service';
 import { ActivatedRoute } from '@angular/router';
-import { UltimateStudent } from './../Ultimate';
-import { UltimateStuds } from './../DanganronpaCharacters';
+import { UltimateStuds } from '../Hardcode/DanganronpaCharacters';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -12,6 +12,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DanganronpaDetailComponent implements OnInit {
   Ultimatestud: UltimateStudent;
+  UltimatestudWIP: UltimateStudent
 
   constructor(
     private route: ActivatedRoute,
@@ -21,6 +22,7 @@ export class DanganronpaDetailComponent implements OnInit {
 
   ngOnInit(): void {
     this.getStud();
+    this.getStudWIP();
   }
 
   getStud(): void {
@@ -28,6 +30,13 @@ export class DanganronpaDetailComponent implements OnInit {
     this.HeroService.getUltimateStud(name).subscribe(
       (Ultimatestud) => (this.Ultimatestud = Ultimatestud)
     );
+  }
+
+  getStudWIP():void{
+    const name= this.route.snapshot.paramMap.get('name');
+    this.HeroService.getUltimateStudWIP(name).subscribe(
+      (UltimatestudWIP)=>(this.UltimatestudWIP = UltimatestudWIP)
+    )
   }
 
   goBack(): void {

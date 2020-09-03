@@ -1,5 +1,5 @@
-import { Createhero } from './../CreateHero';
-import { SubmitNewService } from './../submit-new.service';
+import { Createhero } from '../models/CreateHero';
+import { SubmitNewService } from '../submit-new.service';
 import { FormsModule } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
 

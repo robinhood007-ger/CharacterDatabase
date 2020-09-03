@@ -1,15 +1,16 @@
-import { PLACESINTHEWORLD } from './placesoftheworld';
-import { MAGICTYPES } from './MagicTypes';
-import { UltimateStuds } from './DanganronpaCharacters';
-import { UltimateStudent } from './Ultimate';
-import { HEROES_WIP } from './IanVerseWIP';
+import { UltimateStudsWIP } from './Hardcode/DanganronpaCharactersWIP';
+import { PLACESINTHEWORLD } from './Hardcode/placesoftheworld';
+import { MAGICTYPES } from './Hardcode/MagicTypes';
+import { UltimateStuds } from './Hardcode/DanganronpaCharacters';
+import { UltimateStudent } from './models/Ultimate';
+import { HEROES_WIP } from './Hardcode/IanVerseWIP';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 
-import { place } from './place';
-import { Magic } from './Magic';
-import { Hero } from './hero';
-import { HEROES } from './IanVerseFinished';
+import { place } from './models/place';
+import { Magic } from './models/Magic';
+import { Hero } from './models/hero';
+import { HEROES } from './Hardcode/IanVerseFinished';
 
 @Injectable({
   providedIn: 'root',
@@ -33,6 +34,12 @@ export class HeroService {
   }
   getUltimateStuds(): Observable<UltimateStudent[]> {
     return of(UltimateStuds);
+  }
+  getUltimateStudWIP(name:string): Observable<UltimateStudent>{
+    return of (UltimateStudsWIP.find((ultimatestudWIP)=>ultimatestudWIP.name===name))
+  }
+  getUltimateStudsWIP(): Observable<UltimateStudent[]>{
+    return of (UltimateStudsWIP)
   }
   getMagicTypes(): Observable<Magic[]> {
     return of(MAGICTYPES);

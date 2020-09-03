@@ -1,4 +1,4 @@
-import { Magic } from './Magic';
+import { Magic } from '../models/Magic';
 
 export const MAGICTYPES: Magic[] = [
   {
@@ -56,7 +56,7 @@ export const MAGICTYPES: Magic[] = [
     name: 'Transportation Magic',
     generalDescription: `As it's name suggests it allows the user to transport things or themselves even. Due to spells that allow to get something out of seemingly nothing, this get's confused a lot with creation magic in those cases. Transportation Magic however only allows to store things and get them out of there instead of actually creating it right there.`,
     exampleSpells: 'tba',
-    exampleUsers: 'Ira Gallant',
+    exampleUsers: 'Isa Gallant',
   },
 
   {
@@ -104,7 +104,7 @@ export const MAGICTYPES: Magic[] = [
   {
     name: 'Restoring Magic',
     generalDescription:
-      'As it names suggests the purpose of this Magic Type is the restoration of things. This can go for both inanimate objects as well as injuries or even broken/disfunctioning cells. Sometimes even used by archeologists.',
+      `As it's name suggests the purpose of this Magic Type is the restoration of things. This can go for both inanimate objects as well as injuries or even broken/disfunctioning cells. Sometimes even used by archeologists.`,
     exampleSpells: 'tba',
     exampleUsers: 'Anii Gallant',
   },

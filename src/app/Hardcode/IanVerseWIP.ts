@@ -1,4 +1,4 @@
-import { Hero } from './hero';
+import { Hero } from '../models/hero';
 
 export const HEROES_WIP: Hero[] = [
   {
@@ -10,7 +10,7 @@ export const HEROES_WIP: Hero[] = [
     Backstory: `Has been wandering the great 'Desert Planet' for all her life to her knowledge, picks up anyone unfortunate to get lost in the sandy plains, earned her the title of Sand Planet Queen `,
     magicTypes: 'Transformation Magic, Terramancy, Aeromancy, Hydromancy',
     SongInspired: 'Vocaloid - Suna No Wakusei',
-    Faceclaim: '',
+    Faceclaim: 'https://static.zerochan.net/Suna.no.Wakusei.full.2121399.png',
   },
   {
     name: 'Zombie Girl',
@@ -51,20 +51,20 @@ export const HEROES_WIP: Hero[] = [
   },
   {
     name: 'Succubus Devil',
-    traits: 'tba',
+    traits: 'a particular liking to couches and enjoys laying on them, refuses all sorts of stools',
     Abilities: 'tba',
     Backstory:
-      'Old friend of Maoh, maybe? Who in the meantime became a devil herself?',
-    magicTypes: 'tba',
+      '(Old friend of Maoh, maybe? Who in the meantime became a devil herself?), a succubus Maoh tended to spend a lot of time with back in the days',
+    magicTypes: 'N/A',
     SongInspired: 'Vocaloid - Sweet Devil',
-    Faceclaim: '',
+    Faceclaim: 'https://2.bp.blogspot.com/-HXoYdtZ37YI/ViHXt7jpXKI/AAAAAAAAAO0/Lv5R6TDesfg/s400/Nonon%2Bon%2Bcouch.jpg',
   },
   {
     name: 'Dreamdemon',
     traits: 'tba',
     Abilities: 'tba',
     Backstory: 'tba',
-    magicTypes: 'tba',
+    magicTypes: 'N/A',
     SongInspired: 'Vocaloid - Monochrome Dream Eating Baku ',
     Faceclaim: '',
   },
@@ -73,7 +73,7 @@ export const HEROES_WIP: Hero[] = [
     traits: 'Lawyer of hell',
     Abilities: 'tba',
     Backstory: 'tba',
-    magicTypes: 'tba',
+    magicTypes: 'N/A',
     SongInspired: 'No',
     Faceclaim: '',
   },
@@ -82,26 +82,26 @@ export const HEROES_WIP: Hero[] = [
     traits: 'tba',
     Abilities: 'Blue flames',
     Backstory: 'Tba',
-    magicTypes: 'tba',
+    magicTypes: 'N/A',
     SongInspired: 'No',
     Faceclaim: '',
   },
   {
     name: 'Demon Devil',
     traits: 'tba',
-    Abilities: 'Blue flames',
+    Abilities: 'tba',
     Backstory: 'tba',
-    magicTypes: 'tba',
+    magicTypes: 'N/A',
     SongInspired: 'No',
     Faceclaim: '',
   },
   {
-    name: 'Unappreciated Performer and his popular demon idol',
+    name: 'Demon Idol and P TSN',
     traits: 'tba',
     Abilities: 'tba',
-    Backstory: 'tba',
+    Backstory: 'Idol of TSN',
     magicTypes: 'tba',
     SongInspired: 'TopHamHatKyo - Princess / Mister Jewel Box',
-    Faceclaim: '',
+    Faceclaim: 'https://i.kfs.io/album/global/82205995,0v1/fit/500x500.jpg',
   },
 ];

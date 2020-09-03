@@ -33,3 +33,15 @@ button:hover {
   background-color: #ddd;
   color: #607d8b;
 }
+
+#Faceclaim {
+  position: absolute;
+  top: 30em;
+  left: 80em;
+}
+
+img{
+  max-width: 400px;
+  max-height: 350px;
+  object-fit: cover;
+}

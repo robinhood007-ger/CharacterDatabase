@@ -1,9 +1,9 @@
 import { Observable } from 'rxjs';
-import { SubmitNewService } from './../submit-new.service';
+import { SubmitNewService } from '../submit-new.service';
 import { ActivatedRoute } from '@angular/router';
 import { Component, OnInit, Input } from '@angular/core';
 import {Location} from '@angular/common';
-import { Createhero } from '../CreateHero';
+import { Createhero } from '../models/CreateHero';
 
 @Component({
   selector: 'app-verified-details',

@@ -6,3 +6,14 @@
     </a>
   </li>
 </ul>
+<div id=WIP>
+  <h2>WIP Danganronpa Characters</h2>
+  <ul class="ultimateStuds">
+    <li *ngFor="let ultimatestudWIP of ultimatestudsWIP">
+      <a routerLink="/Dangandetails/{{ultimatestudWIP.name}}">
+        <span class="badge">{{ultimatestudWIP.name}}</span>
+      </a>
+    </li>
+  </ul>
+</div>
+

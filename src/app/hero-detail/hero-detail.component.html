@@ -10,10 +10,12 @@
     <h3>Backstory: {{ hero.Backstory }}</h3>
     <p></p>
     <h3>Inspired by Song: {{ hero.SongInspired }}</h3>
+    <p></p>
+    <div id="Faceclaim">
+     <a href="{{hero.Faceclaim}}"> <img src="{{ hero.Faceclaim }}" /> </a>
+    </div>
   </div>
-  <div id="Faceclaim">
-    <img src="{{ hero.Faceclaim }}" />
-  </div>
+
   <button (click)="goBack()">go back</button>
 </div>
 
@@ -31,7 +33,7 @@
     <h3>Inspired by Song: {{ heroWIP.SongInspired }}</h3>
   </div>
   <div id="Faceclaim">
-    <img src="heroWIP.FaceClaim" />
+   <a href="{{heroWIP.Faceclaim}}"> <img src="{{heroWIP.Faceclaim}}" /></a>
   </div>
   <button (click)="goBack()">go back</button>
 </div>

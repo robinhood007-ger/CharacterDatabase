@@ -1,5 +1,5 @@
-import { Magic } from './../Magic';
-import { HeroService } from './../hero.service';
+import { Magic } from '../models/Magic';
+import { HeroService } from '../hero.service';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';

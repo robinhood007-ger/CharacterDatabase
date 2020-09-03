@@ -1,6 +1,6 @@
-import { Hero } from './hero';
-import { HEROES } from './IanVerseFinished';
-import { Createhero } from './CreateHero';
+import { Hero } from './models/hero';
+import { HEROES } from './Hardcode/IanVerseFinished';
+import { Createhero } from './models/CreateHero';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';

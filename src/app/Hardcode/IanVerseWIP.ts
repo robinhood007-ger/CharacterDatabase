@@ -51,13 +51,15 @@ export const HEROES_WIP: Hero[] = [
   },
   {
     name: 'Succubus Devil',
-    traits: 'a particular liking to couches and enjoys laying on them, refuses all sorts of stools',
+    traits:
+      'a particular liking to couches and enjoys laying on them, refuses all sorts of stools',
     Abilities: 'tba',
     Backstory:
       'A succubus Maoh tended to spend a lot of time with back in the days',
     magicTypes: 'N/A',
     SongInspired: 'Vocaloid - Sweet Devil',
-    Faceclaim: 'https://2.bp.blogspot.com/-HXoYdtZ37YI/ViHXt7jpXKI/AAAAAAAAAO0/Lv5R6TDesfg/s400/Nonon%2Bon%2Bcouch.jpg',
+    Faceclaim:
+      'https://2.bp.blogspot.com/-HXoYdtZ37YI/ViHXt7jpXKI/AAAAAAAAAO0/Lv5R6TDesfg/s400/Nonon%2Bon%2Bcouch.jpg',
   },
   {
     name: 'Dreamdemon',
@@ -105,12 +107,22 @@ export const HEROES_WIP: Hero[] = [
     Faceclaim: 'https://i.kfs.io/album/global/82205995,0v1/fit/500x500.jpg',
   },
   {
-    name: 'Robot/Android?',
+    name: 'Geometry Time',
+    traits: 'tba',
+    Abilities: 'tba',
+    Backstory: '',
+    magicTypes: 'tba',
+    SongInspired:
+      'Proof Geometric Construction Can Solve All Love Affairs - Vocaloid',
+    Faceclaim: '',
+  },
+  {
+    name: 'Robot?|Android?',
     traits: 'tba',
     Abilities: 'tba',
     Backstory: 'tba',
     magicTypes: 'N/A',
-    SongInspired: 'world.execute(me)',
+    SongInspired: 'Mili - world.execute(me)',
     Faceclaim: '',
   },
   {
@@ -123,19 +135,22 @@ export const HEROES_WIP: Hero[] = [
     Faceclaim: '',
   },
   {
-    name: 'Mamoru Butami',
-    traits: '守る 　ぶたうみ　[Mamoru (protect, guard but also obey, observe) Butaumi (dolphin backwards) --> Butami (Boots)]  (Butami)-->Mamoru Butami= spoken name',
+    name: 'Mamoru Mugabunai',
+    traits:
+      '守 (protect, guard but also obey, observe) る (exile) 無 (nothingness, none, nothing, nil, not) 我 (ego, selfish, I, oneself) 危 (danger, risky, critical)]  -->Mamoru Mugabunai= spoken name',
     Abilities: 'tba',
-    Backstory: 'Guy with the aberration of a dolphin which has him see all the many people affected by an aberration. This comes from his high will to help, helping people so much that his own life is putting on risk at any time. Deep inside believes nobody loves him --> got rejected multiple times. Later on learns from ? or how to take care of aberrations with the constant risk of dying however due to dangerous aberrations. ',
+    Backstory:
+      'Guy with the aberration of a dolphin which has him see all the many people affected by an aberration. This comes from his high will to help, helping people so much that his own life is putting on risk at any time. Deep inside believes nobody loves him --> got rejected multiple times. Later on learns from ? or how to take care of aberrations with the constant risk of dying however due to dangerous aberrations, badly in love with Mihitsu  ',
     magicTypes: 'N/A',
     SongInspired: 'No',
     Faceclaim: '',
   },
   {
-    name:'Mihitsu Aimoto ',
-    traits:  `身(	somebody, person, one's station in life ) 日 ( day, sun, Japan, !!counter for days!! ) 佚 ( !!lost!!, !!hide!!, peace, !!mistake!!, beautiful, in turn )-->Mihiitsu --> shortened Mihitsu 未必 = not sure, 愛 (Love,Reference, Affection --> also readable as 相 which means together, aspect, mutual) 本(Source,origin,root)`,
+    name: 'Mihitsu Aimoto ',
+    traits: `身 (	somebody, person, one's station in life ) 日 ( day, sun, Japan, !!counter for days!! ) 佚 ( !!lost!!, !!hide!!, peace, !!mistake!!, beautiful, in turn )-->Mihiitsu --> shortened Mihitsu 未必 = not sure, 愛 (Love,Reference, Affection --> also readable as 相 which means together, aspect, mutual) 本(Source,origin,root)`,
     Abilities: 'tba',
-    Backstory: 'Classmate of MC, in her deepest feelings in love with him, pushes it off to the side and ignores it however to go for more handsome/interesting guys, causes her to attract an aberration --> MC picks up on it and brings her to ? who tells her exactly how things are and how she could bring both of them out of their aberration by confessing. ',
+    Backstory:
+      'Classmate of Mamoru, in her deepest feelings in love with him, pushes it off to the side and ignores it however to go for more handsome/interesting guys, causes her to attract an aberration --> Mamoru picks up on it and brings her to ? who tells her exactly how things are and how she could bring both of them out of their aberration by confessing. ',
     magicTypes: 'N/A',
     SongInspired: 'No',
     Faceclaim: '',
@@ -144,7 +159,7 @@ export const HEROES_WIP: Hero[] = [
     name: 'MonogatariVerseAE',
     traits: 'tba',
     Abilities: 'tba',
-    Backstory: `Oshino kind of role, expert for Aberrations, starts by helping out the MC after he has been involved with a dangerous Aberration, gives the MC an amulet to wear to completely nullify his aberration for the time he wears it(he barely wears it as he wants to protect people from aberrations), despises the LI as she is childish and egoistic in his eyes('I absolutely despise you, down to the core,really.')`,
+    Backstory: `Oshino kind of role, expert for Aberrations, starts by helping out Mamoru after he has been involved with a dangerous Aberration, gives Mamoru an amulet to wear to completely nullify his aberration for the time he wears it(he barely wears it as he chooses to protect people from aberrations), despises Mihiitsu as she is childish and egoistic in his eyes('I absolutely despise you, down to the core,really.')`,
     magicTypes: 'N/A',
     SongInspired: 'No',
     Faceclaim: '',
@@ -158,5 +173,4 @@ export const HEROES_WIP: Hero[] = [
     SongInspired: 'No',
     Faceclaim: '',
   },
-  
 ];

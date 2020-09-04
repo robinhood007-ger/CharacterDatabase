@@ -6,7 +6,7 @@ export const HEROES_WIP: Hero[] = [
     traits:
       'Full on kuudere, actually a really nice and caring person, laughs rarely but if she does then with all her heart',
     Abilities:
-      'Walking without ever stopping, sleeping while walking and navigating, transforming sand into water, solidifying sand to walk more easily and not anger the sandworms living under the entire desert',
+      'Walking without ever stopping, sleeping while walking and navigating, transforming sand particles into water, solidifying sand to walk more easily and not anger the sandworms living under the entire desert',
     Backstory: `Has been wandering the great 'Desert Planet' for all her life to her knowledge, picks up anyone unfortunate to get lost in the sandy plains, earned her the title of Sand Planet Queen `,
     magicTypes: 'Transformation Magic, Terramancy, Aeromancy, Hydromancy',
     SongInspired: 'Vocaloid - Suna No Wakusei',
@@ -54,7 +54,7 @@ export const HEROES_WIP: Hero[] = [
     traits: 'a particular liking to couches and enjoys laying on them, refuses all sorts of stools',
     Abilities: 'tba',
     Backstory:
-      '(Old friend of Maoh, maybe? Who in the meantime became a devil herself?), a succubus Maoh tended to spend a lot of time with back in the days',
+      'A succubus Maoh tended to spend a lot of time with back in the days',
     magicTypes: 'N/A',
     SongInspired: 'Vocaloid - Sweet Devil',
     Faceclaim: 'https://2.bp.blogspot.com/-HXoYdtZ37YI/ViHXt7jpXKI/AAAAAAAAAO0/Lv5R6TDesfg/s400/Nonon%2Bon%2Bcouch.jpg',
@@ -105,6 +105,15 @@ export const HEROES_WIP: Hero[] = [
     Faceclaim: 'https://i.kfs.io/album/global/82205995,0v1/fit/500x500.jpg',
   },
   {
+    name: 'Robot/Android?',
+    traits: 'tba',
+    Abilities: 'tba',
+    Backstory: 'tba',
+    magicTypes: 'N/A',
+    SongInspired: 'world.execute(me)',
+    Faceclaim: '',
+  },
+  {
     name: 'in the company of worms',
     traits: `Seemingly friendly and caring, however rotten and jealous of other people instead, killing those who aren't happy with their life despite not a being that bad, maybe even tries beforehand to help them out of their issues`,
     Abilities: 'tba',
@@ -114,8 +123,8 @@ export const HEROES_WIP: Hero[] = [
     Faceclaim: '',
   },
   {
-    name: 'MonogatariVerseMC',
-    traits: 'tba',
+    name: 'Mamoru Butami',
+    traits: '守る 　ぶたうみ　[Mamoru (protect, guard but also obey, observe) Butaumi (dolphin backwards) --> Butami (Boots)]  (Butami)-->Mamoru Butami= spoken name',
     Abilities: 'tba',
     Backstory: 'Guy with the aberration of a dolphin which has him see all the many people affected by an aberration. This comes from his high will to help, helping people so much that his own life is putting on risk at any time. Deep inside believes nobody loves him --> got rejected multiple times. Later on learns from ? or how to take care of aberrations with the constant risk of dying however due to dangerous aberrations. ',
     magicTypes: 'N/A',
@@ -123,8 +132,8 @@ export const HEROES_WIP: Hero[] = [
     Faceclaim: '',
   },
   {
-    name: 'MonogatariVerseLI',
-    traits: 'tba',
+    name:'Mihitsu Aimoto ',
+    traits:  `身(	somebody, person, one's station in life ) 日 ( day, sun, Japan, !!counter for days!! ) 佚 ( !!lost!!, !!hide!!, peace, !!mistake!!, beautiful, in turn )-->Mihiitsu --> shortened Mihitsu 未必 = not sure, 愛 (Love,Reference, Affection --> also readable as 相 which means together, aspect, mutual) 本(Source,origin,root)`,
     Abilities: 'tba',
     Backstory: 'Classmate of MC, in her deepest feelings in love with him, pushes it off to the side and ignores it however to go for more handsome/interesting guys, causes her to attract an aberration --> MC picks up on it and brings her to ? who tells her exactly how things are and how she could bring both of them out of their aberration by confessing. ',
     magicTypes: 'N/A',

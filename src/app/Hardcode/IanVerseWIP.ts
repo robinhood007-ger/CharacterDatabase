@@ -98,6 +98,24 @@ export const HEROES_WIP: Hero[] = [
     Faceclaim: '',
   },
   {
+    name: 'Monster/Werewolf?',
+    traits: 'tba',
+    Abilities: 'tba',
+    Backstory: 'Someone who played and experimented too much with transformation magic',
+    magicTypes: 'N/A',
+    SongInspired: 'Mili - RTRT',
+    Faceclaim: '',
+  },
+  {
+    name: 'Mad Scientist',
+    traits: 'tba',
+    Abilities: 'tba',
+    Backstory: 'Mad Scientist who picks up the Monster and tames him as hers',
+    magicTypes: 'N/A',
+    SongInspired: 'Mili - RTRT',
+    Faceclaim: '',
+  },
+  {
     name: 'Demon Idol and P TSN',
     traits: 'tba',
     Abilities: 'tba',
@@ -140,7 +158,7 @@ export const HEROES_WIP: Hero[] = [
       '守 (protect, guard but also obey, observe) る (exile) 無 (nothingness, none, nothing, nil, not) 我 (ego, selfish, I, oneself) 危 (danger, risky, critical)]  -->Mamoru Mugabunai= spoken name',
     Abilities: 'tba',
     Backstory:
-      'Guy with the aberration of a dolphin which has him see all the many people affected by an aberration. This comes from his high will to help, helping people so much that his own life is putting on risk at any time. Deep inside believes nobody loves him --> got rejected multiple times. Later on learns from ? or how to take care of aberrations with the constant risk of dying however due to dangerous aberrations, badly in love with Mihitsu  ',
+      'Guy with the aberration of a dolphin which has him see all the many people affected by an aberration. This comes from his high will to help, helping people so much that his own life is putting on risk at any time. Deep inside believes nobody loves him --> got rejected multiple times. Later on learns from Genhito or how to take care of aberrations with the constant risk of dying however due to dangerous aberrations, badly in love with Mihitsu  ',
     magicTypes: 'N/A',
     SongInspired: 'No',
     Faceclaim: '',
@@ -150,7 +168,7 @@ export const HEROES_WIP: Hero[] = [
     traits: `身 (	somebody, person, one's station in life ) 日 ( day, sun, Japan, !!counter for days!! ) 佚 ( !!lost!!, !!hide!!, peace, !!mistake!!, beautiful, in turn )-->Mihiitsu --> shortened Mihitsu 未必 = not sure, 愛 (Love,Reference, Affection --> also readable as 相 which means together, aspect, mutual) 本(Source,origin,root)`,
     Abilities: 'tba',
     Backstory:
-      'Classmate of Mamoru, in her deepest feelings in love with him, pushes it off to the side and ignores it however to go for more handsome/interesting guys, causes her to attract an aberration --> Mamoru picks up on it and brings her to ? who tells her exactly how things are and how she could bring both of them out of their aberration by confessing. ',
+      'Classmate of Mamoru, in her deepest feelings in love with him, pushes it off to the side and ignores it however to go for more handsome/interesting guys, causes her to attract an aberration --> Mamoru picks up on it and brings her to Genhito who tells her exactly how things are and how she could bring both of them out of their aberration by confessing. ',
     magicTypes: 'N/A',
     SongInspired: 'No',
     Faceclaim: '',

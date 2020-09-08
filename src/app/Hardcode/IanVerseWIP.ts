@@ -98,7 +98,7 @@ export const HEROES_WIP: Hero[] = [
     Faceclaim: '',
   },
   {
-    name: 'Monster/Werewolf?',
+    name: 'Monster|Werewolf?',
     traits: 'tba',
     Abilities: 'tba',
     Backstory: 'Someone who played and experimented too much with transformation magic, not able to really think or talk anymore, despaired into nothingness due to him being hated as a proclaimed monster, accidentally wanders into the labaratory of the mad scientist girl where he gets tended to and actually for once feels at least kind of accepted, only as test subject at the start however, ',

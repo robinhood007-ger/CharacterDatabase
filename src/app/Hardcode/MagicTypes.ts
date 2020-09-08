@@ -5,7 +5,7 @@ export const MAGICTYPES: Magic[] = [
     name: 'Pyromancy',
     generalDescription: `What's there to say? It's Fire magic to it's core. Due to it being an elemental magic type, it is very easily combinable with other's however. Able to make even Illusion Magic destructive.`,
     exampleSpells: 'Immolate, Tinder, Ignai',
-    exampleUsers: 'Ian Gallant, Archdemon Devil, Great Archwizard',
+    exampleUsers: 'Ian Gallant, Great Archwizard',
   },
 
   {

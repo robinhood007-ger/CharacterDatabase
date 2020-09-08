@@ -156,8 +156,8 @@ export const HEROES_WIP: Hero[] = [
     Faceclaim: '',
   },
   {
-    name: 'MonogatariVerseAE',
-    traits: 'tba',
+    name: 'Genhito Kaimono',
+    traits: '玄  (mysterious ) 人 ( person ) 開 ( To Open, Unfold, Unseal ) 者 ( Person, Someone ) ',
     Abilities: 'tba',
     Backstory: `Oshino kind of role, expert for Aberrations, starts by helping out Mamoru after he has been involved with a dangerous Aberration, gives Mamoru an amulet to wear to completely nullify his aberration for the time he wears it(he barely wears it as he chooses to protect people from aberrations), despises Mihiitsu as she is childish and egoistic in his eyes('I absolutely despise you, down to the core,really.')`,
     magicTypes: 'N/A',

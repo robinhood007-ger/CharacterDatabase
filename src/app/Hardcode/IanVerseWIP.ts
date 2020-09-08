@@ -110,7 +110,7 @@ export const HEROES_WIP: Hero[] = [
     name: 'Mad Scientist',
     traits: 'tba',
     Abilities: 'tba',
-    Backstory: `Mad Scientist who picks up the Monster and tames him as hers, teaches the monster more and more, eventually growing fond of it and even fully falling in love with it, her life always was too easy in the way of problems she dealt with, the monster finally offering some retort and issues towards her, `,
+    Backstory: `Mad Scientist who picks up the Monster and tames him as hers, teaches the monster more and more (image of cooking), eventually growing fond of it and even fully falling in love with it, her life always was too easy in the way of problems she dealt with (so much she would proclaim herself as a mad scientist as she starts to research more strange things), the monster finally offering some retort and issues towards her, `,
     magicTypes: 'N/A',
     SongInspired: 'Mili - RTRT',
     Faceclaim: '',

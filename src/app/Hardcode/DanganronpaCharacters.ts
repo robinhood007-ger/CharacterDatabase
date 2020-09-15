@@ -4,7 +4,15 @@ export const UltimateStuds: UltimateStudent[] = [
   {
     name: 'Mamoru Miena',
     Ultimate: 'Ultimate Protector',
-    Furtherdescription: 'tba',
+    Furtherdescription: `【Ｈｅｉｇｈｔ】: 6'2"
+    【Ｗｅｉｇｈｔ】: 145 lbs
+    【Ｂｌｏｏｄ　Ｔｙｐｅ】: AB
+    【Ｄ．Ｏ．Ｂ】: April 22
+    【Ｌｉｋｅｓ】:Protecting,
+                  Justice
+    【Ｄｉｓｌｉｋｅｓ】: Hope,
+                        Despair,
+                        Death`,
     Personality: 'tba',
     Backstory: 'tba',
     Faceclaim: 'https://pbs.twimg.com/media/EGENCaJUwAA46YG.jpg',
@@ -12,7 +20,14 @@ export const UltimateStuds: UltimateStudent[] = [
   {
     name: 'Hanafumiya Aisada',
     Ultimate: 'Ultimate Lover',
-    Furtherdescription: 'tba',
+    Furtherdescription: `【Ｈｅｉｇｈｔ】: 5'0"
+    【Ｗｅｉｇｈｔ】: 115 lbs
+    【Ｂｌｏｏｄ　Ｔｙｐｅ】: 0
+    【Ｄ．Ｏ．Ｂ】: 6.11.
+    【Ｌｉｋｅｓ】:  Girls,
+                    Boys
+    【Ｄｉｓｌｉｋｅｓ】: Hate,
+                        Sadness`,
     Personality: 'tba',
     Backstory: 'tba',
     Faceclaim:
@@ -30,7 +45,14 @@ export const UltimateStuds: UltimateStudent[] = [
   {
     name: 'Hayasa Saka',
     Ultimate: 'Ultimate Snake Charmer',
-    Furtherdescription: 'tba',
+    Furtherdescription: `【Ｈｅｉｇｈｔ】: 5'3"
+    【Ｗｅｉｇｈｔ】: 145 lbs
+    【Ｂｌｏｏｄ　Ｔｙｐｅ】: Antidote
+    【Ｄ．Ｏ．Ｂ】: 8.4.
+    【Ｌｉｋｅｓ】:  Knives,
+                    Snakes
+    【Ｄｉｓｌｉｋｅｓ】: lame people,
+                        Boredom`,
     Personality: 'tba',
     Backstory: 'tba',
     Faceclaim:

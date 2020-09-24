@@ -144,6 +144,15 @@ export const HEROES_WIP: Hero[] = [
     Faceclaim: '',
   },
   {
+    name: 'Gläubiger und Dämon/Succubus',
+    traits: 'tba',
+    Abilities: 'tba',
+    Backstory: 'tba',
+    magicTypes: 'N/A',
+    SongInspired: 'Feuerschwanz - Ketzerei',
+    Faceclaim: '',
+  },
+  {
     name: 'in the company of worms',
     traits: `Seemingly friendly and caring, however rotten and jealous of other people instead, killing those who aren't happy with their life despite not a being that bad, maybe even tries beforehand to help them out of their issues`,
     Abilities: 'tba',

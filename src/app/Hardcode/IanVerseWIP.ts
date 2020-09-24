@@ -144,10 +144,10 @@ export const HEROES_WIP: Hero[] = [
     Faceclaim: '',
   },
   {
-    name: 'Gläubiger und Dämon/Succubus',
+    name: 'Believer and Demon/Succubus',
     traits: 'tba',
     Abilities: 'tba',
-    Backstory: 'tba',
+    Backstory: 'Spots her on the way to church, immediately feels in love with her, gets toyed around a lot with but in the end the two of them love eachother.',
     magicTypes: 'N/A',
     SongInspired: 'Feuerschwanz - Ketzerei',
     Faceclaim: '',

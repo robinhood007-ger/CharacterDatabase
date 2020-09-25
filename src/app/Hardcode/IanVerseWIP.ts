@@ -153,6 +153,15 @@ export const HEROES_WIP: Hero[] = [
     Faceclaim: '',
   },
   {
+    name: 'Dancer',
+    traits: 'tba',
+    Abilities: 'Using psychic magic to make people literally dance and not able to fight back.',
+    Backstory: 'tba',
+    magicTypes: 'N/A',
+    SongInspired: 'Danko Jones - Dance,Dance,Dance',
+    Faceclaim: '',
+  },
+  {
     name: 'in the company of worms',
     traits: `Seemingly friendly and caring, however rotten and jealous of other people instead, killing those who aren't happy with their life despite not a being that bad, maybe even tries beforehand to help them out of their issues`,
     Abilities: 'tba',

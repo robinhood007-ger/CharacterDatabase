@@ -53,6 +53,14 @@ export const MAGICTYPES: Magic[] = [
   },
 
   {
+    name: 'Musicmancy',
+    generalDescription:
+      'tba.. needs some kind of catalyst (microphone,instrument)',
+    exampleSpells: 'tba',
+    exampleUsers: `Isa, Aaron D'sa`,
+  },
+
+  {
     name: 'Transportation Magic',
     generalDescription: `As it's name suggests it allows the user to transport things or themselves even. Due to spells that allow to get something out of seemingly nothing, this get's confused a lot with creation magic in those cases. Transportation Magic however only allows to store things and get them out of there instead of actually creating it right there.`,
     exampleSpells: 'tba',
